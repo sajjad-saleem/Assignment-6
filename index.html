@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let character = prompt("Enter an alphabet or a digit:");
+    if (character ==="A" || character === "B" || character === "C" || character === "D" || character === "E" || character === "F" || character === "G" || character === "H" || character === "I" || character === "J" || character === "K" || character === "L" || character === "M" || character === "N" || character === "O" || character === "P" || character === "Q" || character === "R" || character === "S" || character === "T" || character === "U" || character === "V" || character === "W" || character === "X" || character === "Y" || character === "Z") {
+      alert("Uppercase letter");
+    } else if (character === "a" || character === "b" || character === "c" || character === "d" || character === "e" || character === "f" || character === "g" || character === "h" || character === "i" || character === "j" || character === "k" || character === "l" || character === "m" || character === "n" || character === "o" || character === "p" || character === "q" || character === "r" || character === "s" || character === "t" || character === "u" || character === "v" || character === "w" || character === "x" || character === "y" || character === "z") {
+      alert("uppercase letter");
+    }else if (character ==="a" || character === "b" || character === "c" || character === "d" || character === "e" || character === "f" || character === "g" || character === "h" || character === "i" || character === "j" || character === "k" || character === "l" || character === "m" || character === "n" || character === "o" || character === "p" || character === "q" || character === "r" || character === "s" || character === "t" || character === "u" || character === "v" || character === "w" || character === "x" || character === "y" || character === "z") {
+      alert("Lowercase letter");
+    } else if (character === "0" || character === "1" || character === "2" || character === "3" || character === "4" || character === "5" || character === "6" || character === "7" || character === "8" || character === "9" ) {
+      alert("Digit");
+    } else {
+      alert(character + " is a very large number or a special character");
+    }
+    let num1 = +prompt("Enter first number:");
+    let num2 = +prompt("Enter second number:");
+    if (num1 > num2) {
+      alert(num1 + " is greater than " + num2);
+    } else if (num1 < num2) {
+      alert(num2 + " is greater than " + num1);
+    } else {
+      alert("Both numbers are equal");
+    }
+    number= +prompt("Enter a number:");
+if(number>0){
+    alert("The number is positive.");}
+    else if(number<0){alert("The number is negative.");}
+else{alert("The number is zero.");}
+let password = "password123";
+let userInput = prompt("Enter your password:");
+if (userInput === password) {
+  alert("Correct! The password you entered matches the original password.");
+} else if (userInput === "") {
+  alert("Please enter your password.");
+} else {
+  alert("Incorrect password. Please try again.");
+}
+var greeting;
+var hour = 13;
+if (hour < 18) {
+alert(greeting = "Good day");}
+else{
+alert(greeting = "Good evening");
+}
+    let time = +prompt("Enter the time in 24-hour format (e.g., 1900 for 7:00 PM):");
+    if (time >= 0 && time < 1200) {
+      alert("Good morning!");
+    } else if (time >= 1200 && time < 1700) {
+      alert("Good afternoon!");
+    } else if (time >= 1700 && time < 2100) {
+      alert("Good evening!");
+    } else if (time >= 2100 && time < 2400) {
+      alert("Good night!");
+    } else {
+      alert("Invalid time entered.");
+    }
+  </script>
+  
+</body>
+</html>
